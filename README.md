@@ -12,7 +12,7 @@ For further reading, please visit: [INSERT LINK HERE]
 ## Signal Transmission
 Transmitting signals 30ft underwater is a challenge, as conventional wireless signals do not go very far underwater. Furthermore, wired signals can suffer from signal deteoriation dependent on the length of the wire. The GoPro ROUV utilizes a buoy to receive wireless signals from a PS4 DualShock Controller, which is then sent down to the drone through an Ethernet cable. The BUOY_Pi is used to receive wireless signals from the DualShock Controller, and the ROUV_Pi is used to control the thrusters and lights, as well as detecting any leakage.
 
-The live analog feed from the FPV camera is transmitted through a two-strand cable to the VTX transmitter in the buoy. The VTX transmitter then sends the video feed to the Live Feed Receiver.
+The live analog feed from the FPV camera is transmitted through a two-strand cable to the VTX transmitter in the buoy. The VTX transmitter then sends the video feed as a 5GHz signal to the Live Feed Receiver.
 
 ![image](https://github.com/YangDaman/gopro_rouv/assets/69991904/8aecebad-408a-4954-a40a-f7f265f8c98b)
 
