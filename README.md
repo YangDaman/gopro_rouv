@@ -22,7 +22,7 @@ A typical command is sent to the drone as such:
 2) The DualShock controller relays the input to the BUOY_RPi via Bluetooth.
 3) The BUOY_RPi receives the input and formats a data packet using the `create_message()` function. This returns a struct (formatted in short little endian) where the first two bytes are the packet's length, followed by the rest of the message.
 4) The BUOY_RPi sends the data packet through the Ethernet cable to the ROUV_RPi.
-5) The ROUV_RPi reads the first two bytes of the packet to confirm message length. It continues to receive until all bytes have been accounted for.
+5) The ROUV_RPi uses the `handle_client()` function and reads the first two bytes of the packet to confirm message length. It continues to receive until all bytes have been accounted for.
 6) The ROUV_RPi reads the message and sends the specified PWM signal to the thrusters/lights, performing the commanded maneuver.
 7) Once the signal is sent, the ROUV_RPi continues to listen for the next data packet.
 
