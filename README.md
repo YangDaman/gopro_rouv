@@ -6,7 +6,8 @@ The GoPro ROUV is a 5-thruster remote-controlled underwater drone. It is capable
 ![image](https://github.com/YangDaman/gopro_rouv/assets/69991904/4285ed5c-3687-4f91-9572-e621a569097e)
 
 This project was built by Daman Yang, Grant Recker, Elliott Mitchell, Rachel Zou, and Grant Olick-Sutphen.
-For further reading, please visit: [INSERT LINK HERE]
+
+For further reading, please click [here](https://damanyang.com/gopro-rouv).
 
 
 ## Signal Transmission
