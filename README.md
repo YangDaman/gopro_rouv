@@ -36,6 +36,8 @@ The joystick readings on the DualShock controller have a max/min value of +/- 32
 - Level 1 is a value between +/- 1 ~ 100
 - Level 2 is a value between +/- 101 ~ 200
 - Level 3 is a value between +/- 201 ~ 327
+### Controls
+<img width="953" alt="GoPro ROUV Controller Schematic" src="https://github.com/YangDaman/gopro_rouv/assets/69991904/b82de68c-0ffd-4e24-b247-0c663b04fa04">
 
 
 ## Pulse Width Modulation
