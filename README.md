@@ -69,5 +69,8 @@ In the event of overheating or a leak, an exception is raised and interrupts wha
   - Compiled language enables the system to respond faster to real-time events, such as controller inputs or leaks.
 2) Implement multithreading to allow for parallel processes (real-time readouts, leak/overheat procedures, etc.).
 3) Finish implementing the IMU (originally planned, but scrapped due to difficulties integrating the ICM-20948 DMP with Python and time constraints). This will enable the addition of a control system to maintain depth/heading or pitch/roll angle, further stablizing the video recording.
+4) Add more sensors such as depth sensors and collision detection.
+5) Implement head-tracking FPV for VR experience.
+    
 
-Thank you for your interest in this project! If you have any further questions, you can contact me at yang.shaoh@northeastern.edu.
+Thank you for your interest in this project! If you have any further questions, please feel free to contact me at yang.shaoh@northeastern.edu.
